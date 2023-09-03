@@ -37,6 +37,11 @@ APPLE_MUSIC_API_KEY=your_apple_music_api_key
 
 Replace your_spotify_client_id, your_spotify_client_secret, your_spotify_playlist_id, and your_apple_music_api_key with your actual credentials and playlist ID.
 
+5. Start the Node.js app:
+
+```bash
+npm start
+```
 ## Usage
 
 1. Open a web browser and navigate to http://localhost:3000.
