@@ -3,17 +3,17 @@ const SpotifyWebApi = require('spotify-web-api-node');
 const AppleMusicAPI = require('apple-music');
 const app = express();
 
-// Initialize Spotify and Apple Music APIs with your credentials
+// Initialize Spotify and Apple Music APIs credentials
 const spotifyApi = new SpotifyWebApi({
 	clientId: 'SPOTIFY_CLIENT_ID',
 	clientSecret: 'SPOTIFY_CLIENT_SECRET',
 });
 
 const appleMusic = new AppleMusicAPI({
-	// Your Apple Music credentials
+	// Apple Music credentials
 });
 
-// Authenticate with Spotify and Apple Music
+// Authenticate Spotify and Apple Music
 
 app.get('/transfer', async (req, res) => {
 	try {
