@@ -1,4 +1,4 @@
-# SendIt Node.js Express App
+# SendIt - Spotify Playlist to Apple Music 
 
 ## Overview
 
