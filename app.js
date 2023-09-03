@@ -9,9 +9,12 @@ const spotifyApi = new SpotifyWebApi({
 	clientSecret: 'SPOTIFY_CLIENT_SECRET',
 });
 
-const appleMusic = new AppleMusicAPI({
-	// Apple Music credentials
-});
+// Set the access token (replace 'your_access_token' with your actual access token)
+// const accessToken = 'ACCESS_TOKEN';
+// spotifyApi.setAccessToken(accessToken);
+// const appleMusic = new AppleMusicAPI({
+// 	// Apple Music credentials
+// });
 
 // Authenticate Spotify and Apple Music
 
