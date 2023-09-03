@@ -6,12 +6,36 @@ SendIt is a Node.js Express application that allows you to transfer playlists fr
 
 ## Installation
 
- - To run the SendIt app locally, follow these steps:
+To run the SendIt app locally, follow these steps:
 
 1. Clone this Git repository to your local machine:
 
    ```bash
    git clone https://github.com/aejmcclelland/sendIt.git
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd sendIt
+
+3. Install the required dependancies:
+
+```bash
+npm install
+```
+4. Configure your environment variables:
+Create a .env file in the project root directory.
+Add the following variables to the .env file:
+
+```bash
+
+SPOTIFY_CLIENT_ID=your_spotify_client_id
+SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+SPOTIFY_PLAYLIST_ID=your_spotify_playlist_id
+APPLE_MUSIC_API_KEY=your_apple_music_api_key
+```
+
+Replace your_spotify_client_id, your_spotify_client_secret, your_spotify_playlist_id, and your_apple_music_api_key with your actual credentials and playlist ID.
 
 ## Usage
 
